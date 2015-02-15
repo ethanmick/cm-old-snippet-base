@@ -7,9 +7,10 @@ setupTesting({
 });
 
 var MyService = require_my_service();
+var service = new MyService();
 
 Q().then(function() {
-  exit({example: AnyKey, works: MyService.method()});
+  exit({example: AnyKey, works: service.method()});
 }).fail(function(err) {
   exit({error: err});
 });
