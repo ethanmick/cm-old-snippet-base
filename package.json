@@ -1,5 +1,13 @@
 {
   "name": "old-cloudmine-snippet-base",
+  "author": "Ethan Mick <ethan@cloudmine.me>"
+  "description": "A fast and convenient way to write CloudMine snippets.",
+  "version": "0.1.0",
+  "homepage": "https://cloudmine.me/clairvoyance/#/server_code#javascript-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ethanmick/cm-old-snippet-base.git"
+  },
   "dependencies": {
     "async": "~0.1.22",
     "aws-sdk": "~2.0.0-rc8",
@@ -36,6 +44,7 @@
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-ejs-render": "0.2.7",
-    "glob": "3.2.6"
+    "glob": "3.2.6",
+    "underscore": "1.7.0"
   }
 }
