@@ -1,6 +1,6 @@
 {
   "name": "old-cloudmine-snippet-base",
-  "author": "Ethan Mick <ethan@cloudmine.me>"
+  "author": "Ethan Mick <ethan@cloudmine.me>",
   "description": "A fast and convenient way to write CloudMine snippets.",
   "version": "0.1.0",
   "homepage": "https://cloudmine.me/clairvoyance/#/server_code#javascript-snippets",
